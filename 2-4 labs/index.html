@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="font-size:10vw">About me 
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color:whitesmoke;
+        }
+
+        body {
+            background-color: floralwhite;
+        }
+
+        h1 {
+            color: black;
+        }
+        title{
+
+            text-align: center;
+        }
+
+        p {
+            color: black;
+            font: Tahoma
+        }
+
+        nav {
+            text-align: center; 
+        }
+
+            nav a {
+                text-decoration: none;
+                color: #6495ed; /* Змінюємо колір тексту посилань */
+                margin: 0 10px; /* Додаємо відступ між посиланнями */
+            }
+
+                nav a:hover {
+                    color: #cc3300; /* Змінюємо колір тексту посилань при наведенні мишки */
+                }
+
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: hotpink
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex; align-items: center;">
+        <h1 style="margin: 0;">About me</h1>
+        <nav>
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a> |
+        </nav>
+    </header>
+    <p>Eva Cherkun</p>
+    <p>Age: 18 years</p>
+    <figure>
+        <picture>
+            <source srcset="cat.jpg" media="(min-width: 800px)">
+            <!-- Source for smaller screens (fallback for all screens) -->
+            <img src="cat.jpg" alt="A cute cat">
+        </picture>
+   
+    </figure>
+    <hr>
+
+
+
+
+
+    <aside>
+        <p><i>I'm <del>normal</del> <ins>delulu<sub>meow</sub></ins></i></p>
+    </aside>
+
+
+    <section id="education">
+        <h2>Education</h2>
+        <table border="1">
+            <caption>Education Details</caption>
+            <colgroup>
+                <col style="background-color: lightgray;">
+                <col style="background-color: lightblue;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Institution</th>
+                    <th>Program</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">
+                        <b><abbr title="Taras Shevchenko National University of Kyiv">Studying at KNU</abbr></b>
+                    </td>
+
+                    <td>Information Technology Faculty</td>
+                </tr>
+                <tr>
+                    <td>Telecommunications and Radio Engineering</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <article id="skills">
+        <h2>Hard Skills</h2>
+        <ul style="margin-left: 0;">
+            <li>Copywriting</li>
+            <li>
+                Programming:
+                Python, C++, HTML/CSS
+            </li>
+        </ul>
+        <details>
+            <summary>Cisco</summary>
+            <p>
+                <blockquote cite="https://lms.netacad.com/course/view.php?id=1783128">
+                    <div style="background": linear-gradient(to right, #6495ed 0%, #cc3300 100%); color: white; padding: 20px;">
+                        Цей курс вводить архітектуру, структуру, функції, компоненти та моделі Інтернету та інших комп'ютерних мереж. Принципи та структура IP-адресації та основи концепцій, медіа та операцій Ethernet вводяться для створення основи для навчальної програми. Курсанти навчаться будувати прості локальні мережі (LAN), виконувати базову настройку маршрутизаторів та комутаторів та впроваджувати схеми IP-адресації.
+                    </div>
+                </blockquote>
+            </p>
+        </details>
+
+    </article>
+   
+    <section>
+        <h2>Language Skills</h2>
+        <table border="1">
+            <caption>Language Skills</caption>
+            <colgroup>
+                <col style="background-color: lightgray;">
+                <col style="background-color: lightblue;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ukrainian</td>
+                    <td>Native</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>B2</td>
+                </tr>
+                <tr>
+                    <td colspan="2">2 languages</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <h2>Soft skills</h2>
+    <ul style="margin-left: 0;">
+        <li>Presentation skills</li>
+        <li>Open-mindedness</li>
+        <li>Teamwork</li>
+
+    </ul>
+    <hr>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        +(38)0689431808
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Eva Cherkun. Усі права захищені.</p>
+    </footer>
+</body>
+</html>
